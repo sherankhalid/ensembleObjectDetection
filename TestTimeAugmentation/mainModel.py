@@ -6,7 +6,7 @@ import argparse
 import ensembleOptions
 from imutils import paths
 
-def models(listaModels,pathImg,option):
+def models(listaModels,pathImg,option,conf):
     # 1. First we create the folder where we will store the resulting images and create as many folders as we have models
     os.mkdir(pathImg+'/../salida')
     for model in listaModels:
