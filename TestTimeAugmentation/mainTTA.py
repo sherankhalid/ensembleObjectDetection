@@ -65,4 +65,4 @@ def tta(model,myTechniques,pathImg,option, conf):
     for xml in os.listdir(pathImg+'/../salida/output/'):
         shutil.copy(pathImg+'/../salida/output/'+xml,pathImg+'/')
     shutil.rmtree(pathImg+'/tmp')
-    shutil.rmtree(pathImg+'/../salida/')
+    #shutil.rmtree(pathImg+'/../salida/')
